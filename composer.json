@@ -1,0 +1,28 @@
+{
+  "name": "josephlavin/tap",
+  "description": "Stand alone port of Laravel's tap method.",
+  "keywords": [
+    "php",
+    "tap",
+    "laravel"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "files": [
+      "src/tap.php",
+      "src/TapProxy.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
